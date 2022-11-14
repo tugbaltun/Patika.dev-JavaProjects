@@ -9,6 +9,7 @@ public class Zodiac {
 
     private int year;
 
+    //A method to find which chinese zodiac the entered year belongs to
     public String findZodiac(int year){
         String result = "";
         year = year%12;
