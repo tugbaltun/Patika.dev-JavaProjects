@@ -2,7 +2,7 @@ package loops.Practices;
 
 import java.util.Scanner;
 
-public class ProgramToFindTheSumOfOddNumbers {
+public class FindTheSumOfOddNumbers {
     public static void main(String[] args) {
         int num, sum = 0;
         System.out.println("Lütfen sayilari girin (Tek sayi girilene kadar deva eder):");
