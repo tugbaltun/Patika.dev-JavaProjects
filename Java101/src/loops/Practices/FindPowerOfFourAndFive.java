@@ -2,7 +2,7 @@ package loops.Practices;
 
 import java.util.Scanner;
 
-public class FindPowerOfTwo {
+public class FindPowerOfFourAndFive {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Sinir sayisini girin: ");
