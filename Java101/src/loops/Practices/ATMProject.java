@@ -27,12 +27,12 @@ public class ATMProject {
                         System.out.print("Lütfen yapmak istediğiniz işlemi seçiniz : ");
                         select = input.nextInt();
                         switch (select) {
-                            case 1 -> {
+                            case 1: {
                                 System.out.print("Para miktarı : ");
                                 price = input.nextInt();
                                 balance += price;
                             }
-                            case 2 -> {
+                            case 2 : {
                                 System.out.print("Para miktarı : ");
                                 price = input.nextInt();
                                 if (price > balance)
@@ -40,8 +40,8 @@ public class ATMProject {
                                 else
                                     balance -= price;
                             }
-                            case 3 -> System.out.println("Bakiyeniz : " + balance);
-                            case 4 -> System.out.println("Tekrar görüşmek üzere.");
+                            case 3 : System.out.println("Bakiyeniz : " + balance);
+                            case 4 : System.out.println("Tekrar görüşmek üzere.");
                         }
                     }while(select != 4);
 
