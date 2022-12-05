@@ -4,6 +4,9 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 public class EmployeeManagerImpl implements EmployeeManager {
+    public EmployeeManagerImpl() {
+    }
+
     @Override
     public BigDecimal tax(BigDecimal salary) {
         BigDecimal percent = new BigDecimal("0.03");

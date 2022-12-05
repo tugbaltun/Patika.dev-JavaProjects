@@ -8,4 +8,5 @@ public  interface EmployeeManager {
     BigDecimal bonus(double workHours);
     BigDecimal raiseSalary(Date hireYear, BigDecimal salary);
     void toString(Employee employee);
+
 }
