@@ -5,6 +5,7 @@
  kapanmakta olduğu görüldü.
 
 ![](images/manuelTest1.1.png)
+
 ![](images/manuelTest1.2.png)
 
 2- Anasayfada bulunan slider test edildi ve sorunsuz çalıştığı doğrulandı.
